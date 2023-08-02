@@ -318,7 +318,7 @@ public class SuperStarTrekGame implements GameCallback {
     }
 
     public void endGameSuccess() {
-        Util.println("CONGRATULATION, CAPTAIN!  THE LAST KLINGON BATTLE CRUISER");
+        Util.println("CONGRATULATIONS, CAPTAIN!  THE LAST KLINGON BATTLE CRUISER");
         Util.println("MENACING THE FEDERATION HAS BEEN DESTROYED.\n");
         Util.println("YOUR EFFICIENCY RATING IS " + (Math.sqrt(1000 * (galaxyMap.getRemainingKlingons() / (stardate - initialStardate)))));
         repeatGame();
